@@ -1,0 +1,22 @@
+### **The spelled-out intro to neural networks and backpropagation: building micrograd**
+
+Backpropagation: orqaga tarqalish
+
+Backpropagation helps neural networks learn by providing a systematic way to improve their predictions through error correction. Here’s how it works:
+
+- When a neural network makes a prediction, it compares the prediction to the actual answer using a loss function, which measures how far off the prediction was[1](https://www.ibm.com/think/topics/backpropagation)[5](https://www.grammarly.com/blog/ai/what-is-backpropagation/)[6](https://wandb.ai/mostafaibrahim17/ml-articles/reports/Decoding-Backpropagation-and-Its-Role-in-Neural-Network-Learning--Vmlldzo3MTY5MzM1).
+- The network then calculates how much each part (weight) of the network contributed to the error. This is done by sending the error backward through the network, from the output layer to the input layer, using the chain rule from calculus[1](https://www.ibm.com/think/topics/backpropagation)[5](https://www.grammarly.com/blog/ai/what-is-backpropagation/).
+- As the error is sent backward, the network computes gradients-these are signals that tell each weight how it should be adjusted to reduce the error next time[1](https://www.ibm.com/think/topics/backpropagation)[2](https://builtin.com/machine-learning/backpropagation-neural-network)[5](https://www.grammarly.com/blog/ai/what-is-backpropagation/).
+- The network then updates its weights in the direction that will decrease the error, using an optimization algorithm like gradient descent[1](https://www.ibm.com/think/topics/backpropagation)[5](https://www.grammarly.com/blog/ai/what-is-backpropagation/)[6](https://wandb.ai/mostafaibrahim17/ml-articles/reports/Decoding-Backpropagation-and-Its-Role-in-Neural-Network-Learning--Vmlldzo3MTY5MzM1).
+
+By repeating this process for many examples, the neural network gradually learns the best set of weights to make more accurate predictions. Backpropagation is crucial because it allows the network to efficiently identify and correct mistakes, enabling it to learn complex patterns and generalize well to new data
+
+arbitary: o'zboshimchalik bilan, zo'ravon
+
+tensor:
+
+- flexible, multi-dimensional array of numbers that can represent simple or very complex data and relationships
+
+Derivative: hosila
+
+derive: hosil qilish, olmoq
