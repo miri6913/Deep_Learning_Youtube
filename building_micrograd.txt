@@ -20,3 +20,10 @@ tensor:
 Derivative: hosila
 
 derive: hosil qilish, olmoq
+
+------------------------------
+segmentation - division into separate parts or sections
+
+benchmark - a standard or point of reference against which things may be compared or assessed
+
+convolution - a thing that is complex and difficult to follow. a function derived from two given functions by integration which expresses how the shape of one is modified by the other.
