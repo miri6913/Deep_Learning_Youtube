@@ -27,3 +27,54 @@ segmentation - division into separate parts or sections
 benchmark - a standard or point of reference against which things may be compared or assessed
 
 convolution - a thing that is complex and difficult to follow. a function derived from two given functions by integration which expresses how the shape of one is modified by the other.
+
+
+### **Lecture 2 | Image Classification**
+
+pipeline - quvur liniyasi
+
+notion - tushuncha, fikr, g’oya
+
+obvious - aniq, ravshan
+
+Image classigication: a core task in computer vision
+
+First step to detect cat from image:
+
+1. Detect edges: not very scalable to approach
+2. Data driven approach:
+    1. collect a dataset of images and labels
+    2. use machine learning to train a classifier
+    3. evaluate the classifier on new images
+
+First classifier: Nearest Neighbor
+
+Example Dataset: CIFAR10
+
+- 10 classes
+- 50000 training images
+- 10000 testing images
+
+Distance metric to compare images: L1 distance
+
+Time:
+
+- Train O(1)
+- Predict O(N)
+
+K in K-nearest neighbors - need to choose more than a for more smooth result
+
+k, distance is hyperparameters
+
+Cross-Validation: Split data into folds, try each fold as validation and average the results
+
+k-nearest:
+
+- very slow at test time
+- distance metrics on pixels are not informative
+
+Linear Classification
+
+Basic block of deep neural networks
+
+W - parameters or weights
