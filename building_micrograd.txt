@@ -78,3 +78,7 @@ Linear Classification
 Basic block of deep neural networks
 
 W - parameters or weights
+-------------------------------------------
+
+📷 Image Classification
+Image classification is the task of assigning a category label to an image (e.g., “dog” or “airplane”). Each image is usually represented as a high-dimensional vector (e.g., pixel values), and the goal is to learn a function that maps these vectors to labels.
