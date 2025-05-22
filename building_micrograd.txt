@@ -82,3 +82,29 @@ W - parameters or weights
 
 📷 Image Classification
 Image classification is the task of assigning a category label to an image (e.g., “dog” or “airplane”). Each image is usually represented as a high-dimensional vector (e.g., pixel values), and the goal is to learn a function that maps these vectors to labels.
+
+------------------------
+📈 Linear Classifiers
+Linear classifiers are a family of models that make predictions based on a linear combination of the input features. 
+In mathematical terms, for an input image vector x, the model computes:
+
+𝑓
+(
+𝑥
+)
+=
+𝑊
+𝑥
++
+𝑏
+f(x)=Wx+b
+Where:
+
+W is a weight matrix
+
+b is a bias vector
+
+The output f(x) is a score for each class
+
+The class with the highest score is predicted.
+
