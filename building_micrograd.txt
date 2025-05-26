@@ -80,6 +80,11 @@ Basic block of deep neural networks
 W - parameters or weights
 -------------------------------------------
 
+### **Lecture 3 | Loss Functions and Optimization**
+hinge - oshiq-moshiq
+soft constraint - yumshoq cheklov
+sparse - siyrak
+
 📷 Image Classification
 Image classification is the task of assigning a category label to an image (e.g., “dog” or “airplane”). 
 Each image is usually represented as a high-dimensional vector (e.g., pixel values), 
