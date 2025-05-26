@@ -108,5 +108,5 @@ The output f(x) is a score for each class
 
 The class with the highest score is predicted.
 ----------------------------
-Lecture 4
+
 
