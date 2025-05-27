@@ -103,5 +103,35 @@ b is a bias vector
 The output f(x) is a score for each class
 The class with the highest score is predicted.
 ----------------------------
+Loss function - tells how good our current classifier is
 
+Datat loss: model predictions should match training data
+
+Regularization: model should be “simple”, so it works on test data
+
+Elastic net is mixture of L1+L2 learning
+
+Difference between L1, and L2?
+
+Softmax Classifier (Multinomial Logistic Regression)?
+
+score = unnormalized log probabilites of the classes
+
+minus log of probability of true class?
+
+![image.png](attachment:9b91bc27-208d-4a18-865b-68932b0e2c1b:image.png)
+
+What is hinge loss?
+
+Slope - derivative of a function
+
+Gradient - vector of (partial derivatives) along each dimension
+
+Analytic gradient?
+
+Always use analytic gradient, but to check we can use numerical gradient
+
+Stochastic Gradient Descent
+
+Feature transform
 
