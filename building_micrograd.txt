@@ -134,4 +134,10 @@ Always use analytic gradient, but to check we can use numerical gradient
 Stochastic Gradient Descent
 
 Feature transform
+-------------------------
+### **Lecture 4 | Introduction to Neural Networks**
+
+adequate - talabga javob beradigan, yetarli
+
+Gradient - an inclined part of a road or railway; a slope(qiyalik)
 
