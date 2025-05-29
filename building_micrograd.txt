@@ -243,3 +243,82 @@ spatially - fazoviy
 stride - katta qadam tashlash
 
 extent - darajada, miqyos
+
+### 🧠 **Perceptron**
+
+The **perceptron** is the **simplest neural unit**, proposed by Frank Rosenblatt in 1958. It mimics a biological neuron by computing:
+
+y=activation(wTx+b)y = \text{activation}(w^T x + b)
+
+y=activation(wTx+b)
+
+It led to the development of **multi-layer perceptrons (MLPs)**, which are fully connected networks. 
+However, MLPs don’t scale well for images due to high dimensionality and no spatial awareness.
+
+---
+
+### 👁️ **Neocognitron**
+
+The **neocognitron**, proposed by Kunihiko Fukushima in 1980, 
+was the **first model** to use a **hierarchical structure** with **local receptive fields** (precursors to convolutions).
+
+- Introduced concepts of **convolution** and **pooling** (then called “shift invariance”)
+- Inspired modern CNNs
+- Could recognize characters and shapes regardless of location
+
+---
+
+### 🧮 **Convolutional Neural Networks (CNNs)**
+
+**CNNs** are specialized neural networks for **image and visual data**. 
+nstead of fully connecting all neurons, CNNs take advantage of the **spatial structure** of images.
+
+Key components:
+
+1. **Convolution Layers**output=image∗filter
+    
+    Apply **filters (kernels)** that slide over the image to detect features like edges, textures, shapes.
+    
+    output=image∗filter\text{output} = \text{image} * \text{filter}
+    
+2. **Pooling Layers**
+    
+    Reduce the spatial size of the feature maps to make the network more efficient and robust.
+    
+    Common types:
+    
+    - Max pooling: Takes the max value in each patch
+    - Average pooling: Averages the values
+3. **Fully-Connected Layers**
+    
+    At the end of the CNN, high-level features are fed into fully connected layers for **classification**.
+    
+
+---
+
+### 🧱 **LeNet**
+
+**LeNet-5**, developed by Yann LeCun in 1998, is one of the **first successful CNNs**, used for digit recognition (e.g., MNIST).
+
+Architecture:
+
+- **Convolution → Pooling → Convolution → Pooling → Fully connected layers**
+- Simple but effective structure
+
+LeNet proved that CNNs could learn meaningful visual features without manual engineering.
+
+---
+
+### 🏆 **AlexNet**
+
+**AlexNet** (2012, by Alex Krizhevsky) **revolutionized computer vision** by winning the ImageNet competition with a huge margin.
+
+Key innovations:
+
+- Deeper network than LeNet
+- Used **ReLU** activation (faster training than tanh/sigmoid)
+- Introduced **dropout** to reduce overfitting
+- Trained on GPUs for scalability
+- **Convolution + Pooling + Fully connected + Softmax**
+
+AlexNet showed that deep learning + big data + GPU = powerful results.
