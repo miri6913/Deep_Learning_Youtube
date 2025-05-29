@@ -141,3 +141,95 @@ adequate - talabga javob beradigan, yetarli
 
 Gradient - an inclined part of a road or railway; a slope(qiyalik)
 
+**Computational Graphs**
+
+A **computational graph** is a way to visualize and structure the computation performed by a machine learning model, especially in deep learning.
+
+- **Nodes**: Variables or operations (e.g., add, multiply, sigmoid).
+- **Edges**: Flow of data between operations.
+
+For example, the expression `z = (x + y) * w` would be broken into smaller operations in the graph:
+
+**Why it matters**: It allows automatic differentiation, where the framework (like PyTorch or TensorFlow) can compute gradients of any variable with respect to another.
+
+---
+
+🔙 **Backpropagation**
+
+**Backpropagation** is the algorithm used to compute gradients **efficiently** through a computational graph.
+
+Steps:
+
+1. **Forward pass**: Compute the output of the network (called **feed-forward computation**).
+2. **Backward pass**: Apply the chain rule to compute gradients of the loss with respect to all weights (via the computational graph).
+
+This lets the network **learn** by updating weights using gradient-based optimization.
+
+---
+
+📈 **Feed-Forward Computation**
+
+This is the **first step** in training or inference:
+
+- Inputs pass through layers (e.g., convolution, ReLU, fully connected).
+- Each layer applies mathematical operations to the data.
+- The result is the output (e.g., class scores in image classification).
+
+In training, this output is compared with the true label to compute a **loss**, which then triggers backpropagation.
+
+---
+
+🔽 **Gradient**
+
+The **gradient** tells us how much a change in input or a parameter (like a weight) affects the output or loss.
+
+Mathematically, for a scalar function f(x)f(x)f(x), the gradient is a vector of partial derivatives:
+
+∇f(x)=[∂f∂x1,∂f∂x2,...,∂f∂xn]\nabla f(x) = \left[ \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, ..., \frac{\partial f}{\partial x_n} \right]
+
+∇f(x)=[∂x1∂f,∂x2∂f,...,∂xn∂f]
+
+Used in **gradient descent** to update weights and reduce loss:
+
+W←W−η⋅∇WLW \leftarrow W - \eta \cdot \nabla_W L
+
+W←W−η⋅∇WL
+
+---
+
+🧮 **Jacobian Matrix**
+
+When dealing with vector-valued functions (e.g., output from a layer), the **Jacobian matrix** generalizes the gradient:
+
+Jij=∂yi∂xjJ_{ij} = \frac{\partial y_i}{\partial x_j}
+
+Jij=∂xj∂yi
+
+This matrix describes how each output dimension changes with respect to each input dimension. It’s essential in deep learning for understanding how multi-output systems respond to changes in input, and is used internally in backpropagation.
+
+---
+
+🧠 **AlexNet**
+
+**AlexNet** is a famous convolutional neural network (CNN) that **won the ImageNet 2012 competition** and helped spark the deep learning boom.
+
+Key features:
+
+- First to use **ReLU** activations in CNNs.
+- Used **dropout** and **data augmentation** to reduce overfitting.
+- Deep architecture with **convolutional and fully connected layers**.
+
+AlexNet was trained using feed-forward computation and backpropagation through a computational graph.
+
+---
+
+🧠💾 **Neural Turing Machine (NTM)**
+
+The **Neural Turing Machine** is a more advanced architecture developed by DeepMind that combines:
+
+- A **neural network controller** (like an RNN)
+- A **differentiable memory** matrix
+
+It can **learn algorithms** like copying, sorting, or recalling sequences, which standard networks struggle with.
+
+NTMs use gradients (computed through backpropagation) to learn **how to read from and write to memory**, using soft attention mechanisms.
