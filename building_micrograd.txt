@@ -233,3 +233,13 @@ The **Neural Turing Machine** is a more advanced architecture developed by DeepM
 It can **learn algorithms** like copying, sorting, or recalling sequences, which standard networks struggle with.
 
 NTMs use gradients (computed through backpropagation) to learn **how to read from and write to memory**, using soft attention mechanisms.
+----------------------------
+### **Lecture 5 | Convolutional Neural Networks**
+
+convolve - yig'ilish
+
+spatially - fazoviy
+
+stride - katta qadam tashlash
+
+extent - darajada, miqyos
