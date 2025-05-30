@@ -322,3 +322,6 @@ Key innovations:
 - **Convolution + Pooling + Fully connected + Softmax**
 
 AlexNet showed that deep learning + big data + GPU = powerful results.
+---------------------
+
+Lecture 5
