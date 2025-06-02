@@ -387,3 +387,9 @@ Outputs between -1 and 1. Still suffers from vanishing gradient but less than si
 
 Leaky ReLU, ELU, Swish:
 Advanced functions to fix ReLU’s "dying neuron" problem or improve learning dynamics.
+-----------------------------
+### **Lecture 6 | Training Neural Networks I**
+
+Saturated - To'yingan
+
+Squash - ezmoq pachaqlamoq
