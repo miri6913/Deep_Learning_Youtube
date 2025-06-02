@@ -323,73 +323,18 @@ Key innovations:
 
 AlexNet showed that deep learning + big data + GPU = powerful results.
 ---------------------
-
-Lecture 5
-
-⚙️ Activation Functions
-Activation functions introduce non-linearity into neural networks, allowing them to model complex patterns.
-
-Common types:
-
-ReLU (Rectified Linear Unit):
-
-𝑓
-(
-𝑥
-)
-=
-max
-⁡
-(
-0
-,
-𝑥
-)
-f(x)=max(0,x)
-Most widely used due to simplicity and efficiency.
-
-Sigmoid:
-
-𝑓
-(
-𝑥
-)
-=
-1
-1
-+
-𝑒
-−
-𝑥
-f(x)= 
-1+e 
-−x
- 
-1
-​
- 
-Outputs between 0 and 1. Can cause vanishing gradients.
-
-Tanh:
-
-𝑓
-(
-𝑥
-)
-=
-tanh
-⁡
-(
-𝑥
-)
-f(x)=tanh(x)
-Outputs between -1 and 1. Still suffers from vanishing gradient but less than sigmoid.
-
-Leaky ReLU, ELU, Swish:
-Advanced functions to fix ReLU’s "dying neuron" problem or improve learning dynamics.
------------------------------
 ### **Lecture 6 | Training Neural Networks I**
 
 Saturated - To'yingan
-
 Squash - ezmoq pachaqlamoq
+
+
+What does zero centered mean?
+
+How high learning rate will affect to dead relu?
+
+What does saturated neuron mean?
+
+Xavier initialization
+
+Gaussian activation
