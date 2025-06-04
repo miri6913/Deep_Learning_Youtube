@@ -374,3 +374,14 @@ Xavier initialization
         Keeps gradient flow stable during training
 
 Gaussian activation
+The term Gaussian activation is not standard, but it usually refers to:
+Outputs values in (0, 1)
+Bell-shaped curve
+Rarely used in deep networks, but appears in Radial Basis Function (RBF) networks
+2. Gaussian Noise or Distribution in Activations:
+Sometimes “Gaussian” is used to describe:
+Adding Gaussian noise to activations (a form of regularization)
+Distributions of activations or weights being Gaussian (i.e., normally distributed)
+🧠 Bottom line:
+    Gaussian activation functions are not common in modern deep learning compared to ReLU or tanh,
+    but Gaussian-shaped curves appear in RBF networks or certain generative models.
