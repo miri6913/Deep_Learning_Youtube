@@ -330,6 +330,14 @@ Squash - ezmoq pachaqlamoq
 
 
 What does zero centered mean?
+    A distribution is zero-centered if its mean is close to 0. 
+    This is important in deep learning for both inputs and activations.
+    When inputs or activations are zero-centered, the gradients during backpropagation are more balanced.
+    If not zero-centered, gradients might consistently point in a biased direction
+    (e.g., always positive), which slows learning.
+    🔧 Example:
+    Data preprocessing often includes mean subtraction to make input features zero-centered.
+    Some activation functions (like tanh) are zero-centered; ReLU is not.
 
 How high learning rate will affect to dead relu?
 
