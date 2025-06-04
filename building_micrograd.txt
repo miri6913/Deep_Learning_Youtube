@@ -340,6 +340,15 @@ What does zero centered mean?
     Some activation functions (like tanh) are zero-centered; ReLU is not.
 
 How high learning rate will affect to dead relu?
+    A dead ReLU is a neuron that always outputs zero because its input is negative and never activates.
+    A high learning rate can make this worse:
+    Large weight updates might push the neuron's weights such that its input is always negative.
+    Since ReLU returns 0 for negative inputs and has zero gradient, it stops learning—this is "dead."
+    The neuron can’t recover unless weights are adjusted by another mechanism (e.g., better initialization or using Leaky ReLU).
+    🛠️ Prevention tips:
+        Use lower learning rates
+        Use Leaky ReLU or ELU
+        Use proper weight initialization (e.g., He initialization for ReLU)
 
 What does saturated neuron mean?
 
