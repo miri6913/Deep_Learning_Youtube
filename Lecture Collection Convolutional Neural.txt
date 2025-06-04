@@ -364,5 +364,13 @@ What does saturated neuron mean?
         Avoid large weights or poor initialization
 
 Xavier initialization
+    Xavier initialization (also called Glorot initialization) is a method to initialize weights so that the variance of 
+    activations remains stable across layers.
+    Applies to:
+        Activation functions like sigmoid or tanh
+        Can also use a normal distribution variant.
+    🔍 Why use it?
+        Prevents activations from blowing up or vanishing
+        Keeps gradient flow stable during training
 
 Gaussian activation
