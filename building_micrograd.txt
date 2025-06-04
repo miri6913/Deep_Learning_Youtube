@@ -351,6 +351,17 @@ How high learning rate will affect to dead relu?
         Use proper weight initialization (e.g., He initialization for ReLU)
 
 What does saturated neuron mean?
+    A saturated neuron is a neuron whose activation output is stuck near the extremes of the activation function, 
+    where gradients are very small (close to 0).
+    Typical with:
+        Sigmoid: Saturates near 0 or 1
+        Tanh: Saturates near -1 or 1
+    🧨 Problem:
+        Gradients vanish in saturated regions → very slow learning or no learning at all (vanishing gradient problem).
+    🔧 Solutions:
+        Use ReLU instead (non-saturating for positive values)
+        Use batch normalization
+        Avoid large weights or poor initialization
 
 Xavier initialization
 
