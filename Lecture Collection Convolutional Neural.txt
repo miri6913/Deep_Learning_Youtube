@@ -430,3 +430,7 @@ Fractional Max Pooling
 Batch normalization
 
 Transfer Learning with CNNs
+
+Keywords: Optimization, momentum, Nesterov momentum, AdaGrad, RMSProp, Adam, 
+second-order optimization, L-BFGS, ensembles, regularization, dropout, data augmentation, 
+transfer learning, finetuning
