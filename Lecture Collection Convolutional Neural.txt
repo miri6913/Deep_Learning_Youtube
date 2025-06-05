@@ -385,3 +385,14 @@ Distributions of activations or weights being Gaussian (i.e., normally distribut
 🧠 Bottom line:
     Gaussian activation functions are not common in modern deep learning compared to ReLU or tanh,
     but Gaussian-shaped curves appear in RBF networks or certain generative models.
+
+-----------------------------------------
+### **Lecture 7 | Training Neural Networks II**
+
+convex - do'ng
+
+decay - parchalanish, yiringlash
+
+stochastisity - tizimda tasodifiylik yoki tasodif mavjudligini bildiradi
+
+pervasive - keng tarqalgan
