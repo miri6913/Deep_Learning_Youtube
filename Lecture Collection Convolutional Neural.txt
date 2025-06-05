@@ -434,3 +434,20 @@ Transfer Learning with CNNs
 Keywords: Optimization, momentum, Nesterov momentum, AdaGrad, RMSProp, Adam, 
 second-order optimization, L-BFGS, ensembles, regularization, dropout, data augmentation, 
 transfer learning, finetuning
+------------------------------------
+
+### **Lecture 8 | Deep Learning Software**
+
+placeholder - a significant zero in the decimal representation of a number.
+
+batching - to'plash
+
+fused operations - birlashtirilgan operatsiyalar
+
+AutoGrad in Pytorch
+
+What is wrapper in Tensorflow and Pytorch?
+
+Batch and minibatch?
+
+Static vs Dynamic Graphs
