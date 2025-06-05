@@ -396,3 +396,37 @@ decay - parchalanish, yiringlash
 stochastisity - tizimda tasodifiylik yoki tasodif mavjudligini bildiradi
 
 pervasive - keng tarqalgan
+
+Difference in Initialization too small, too big, just right
+
+zero mean
+
+unit variance
+
+Fancier optimization
+
+regulerization
+
+Transfer learning
+
+Stochastic gradient decent
+
+saddle point
+
+SGD+Momentum: how does it help to solve the problem?
+
+Nesterov Momentum, difference
+
+Ada Grad
+
+RMSProp
+
+Adam
+
+DropConnect
+
+Fractional Max Pooling
+
+Batch normalization
+
+Transfer Learning with CNNs
