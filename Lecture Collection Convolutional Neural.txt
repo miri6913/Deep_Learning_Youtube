@@ -455,6 +455,26 @@ Static vs Dynamic Graphs
 
 ### Lecture 9 | CNN Architectures
 
+inception - boshlanishi
+
+redundancy - ortiqchalik
+
+residual connections - qoldiq ulanishlar
+
+shallower model - sayoz model
+
 What is pooling layer in alexnet?
 
 What is effective receptive field?
+
+Inception module?
+
+1x1 bottleneck layers in GoogleNet?
+
+What is Stem Network in GoogleNet?
+
+Difference between FC and Conv layers?
+
+Why do we call vanilla convolutional layers?
+
+Vanishing gradients?
