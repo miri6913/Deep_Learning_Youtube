@@ -451,3 +451,10 @@ What is wrapper in Tensorflow and Pytorch?
 Batch and minibatch?
 
 Static vs Dynamic Graphs
+------------------------
+
+### Lecture 9 | CNN Architectures
+
+What is pooling layer in alexnet?
+
+What is effective receptive field?
