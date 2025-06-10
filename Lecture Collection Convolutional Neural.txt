@@ -487,3 +487,8 @@ recurrent
 glimpses
 
 explicit
+---------------------
+
+### **Lecture 11 | Detection and Segmentation**
+
+Keywords: Semantic segmentation, fully convolutional networks, unpooling, transpose convolution, localization, multitask losses, pose estimation, object detection, sliding window, region proposals, R-CNN, Fast R-CNN, Faster R-CNN, YOLO, SSD, DenseCap, instance segmentation, Mask R-CNN
