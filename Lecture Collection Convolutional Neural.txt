@@ -478,3 +478,12 @@ Difference between FC and Conv layers?
 Why do we call vanilla convolutional layers?
 
 Vanishing gradients?
+---------------------
+
+### **Lecture 10 | Recurrent Neural Networks**
+
+recurrent
+
+glimpses
+
+explicit
