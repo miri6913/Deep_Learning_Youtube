@@ -498,5 +498,16 @@ YOLO, SSD, DenseCap, instance segmentation, Mask R-CNN
 
 ### **Lecture 12 | Visualizing and Understanding**
 
+arbitrary
+
+jitter image
+
+salency maps
+
+1. What is Gradient Ascent?
+2. What is fooling image?
+3. Gram Matrix in Texture Synthesis?
+4. Covarience matrix
+
 Keywords: Visualization, t-SNE, saliency maps, class visualizations, fooling images, feature inversion, DeepDream, 
 style transfer
