@@ -511,3 +511,9 @@ salency maps
 
 Keywords: Visualization, t-SNE, saliency maps, class visualizations, fooling images, feature inversion, DeepDream, 
 style transfer
+---------------------
+
+### **Lecture 13 | Generative Models**
+
+Keywords: Generative models, PixelRNN, PixelCNN, autoencoder, variational autoencoder, 
+VAE, generative adversarial network, GAN
