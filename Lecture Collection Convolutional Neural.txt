@@ -517,3 +517,8 @@ style transfer
 
 Keywords: Generative models, PixelRNN, PixelCNN, autoencoder, variational autoencoder, 
 VAE, generative adversarial network, GAN
+-------------------
+### **Lecture 14 | Deep Reinforcement Learning**
+
+Keywords: Reinforcement learning, RL, Markov decision process, MDP, Q-Learning, 
+policy gradients, REINFORCE, actor-critic, Atari games, AlphaGo
