@@ -476,7 +476,7 @@ Batch and minibatch?
     A batch is a group of training samples (examples) processed together before the model updates its weights.
     Instead of updating weights after every single input (which would be slow and noisy), we collect multiple inputs, 
     run them through the model together, compute the average loss, and then update the weights.
-    
+
     🧠 What is a Mini-Batch?
     In most real-world scenarios, when we say “batch,” we actually mean mini-batch.
     A mini-batch is a small subset of the full dataset, used in one training iteration. It’s a balance between:
@@ -484,10 +484,33 @@ Batch and minibatch?
     Batch Gradient Descent – updates weights after computing gradients on the entire dataset (very slow for large data).
     Mini-batch Gradient Descent:
     Processes a small number of samples per update (e.g., 16, 32, 64)
-
-Most common method in deep learning
+    Most common method in deep learning
 
 Static vs Dynamic Graphs
+    ⚙️ **Static Computation Graphs**
+    (**Define-and-run**)
+    Used by **TensorFlow 1.x**, **Theano**, **MXNet** (default mode)
+    You first **define the entire graph** (like a blueprint).
+    Then you **compile** and **run** it separately with data.
+    ✅ Pros:
+    Can be **optimized** before execution (graph-level optimizations).
+    Often faster in **inference and training** due to those optimizations.
+    Easy to **deploy** to production.
+    ❌ Cons:
+    Harder to debug (you don’t see values during graph building).
+
+    🔄 **Dynamic Computation Graphs**
+    (**Define-by-run**)
+    Used by **PyTorch**, **TensorFlow 2.x (by default)**, **Chainer**
+    The graph is **built on the fly** as you run your code.
+    Each operation adds a new node to the graph during execution.
+    ✅ Pros:
+    Much easier to **debug** using standard Python tools (like `print` or `pdb`).
+    **Flexible**: You can use loops, `if` statements, recursion—just like normal Python.
+    Better for **research and prototyping**.
+    ❌ Cons:
+    Slightly slower than static graphs in some cases (though improving fast).
+    Harder to optimize globally, since the graph isn’t known ahead of time.
 ------------------------
 
 ### Lecture 9 | CNN Architectures
