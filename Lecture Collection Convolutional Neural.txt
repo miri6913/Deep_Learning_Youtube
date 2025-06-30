@@ -456,6 +456,19 @@ AutoGrad in Pytorch
     4. Gradients are stored in the `.grad` attribute.
 
 What is wrapper in Tensorflow and Pytorch?
+    A **wrapper** is a utility or layer that **simplifies or extends functionality**. In deep learning frameworks, 
+    wrappers are often used to:
+    **Abstract low-level APIs** into high-level user-friendly functions
+    **Add additional features** (like monitoring, logging, or preprocessing)
+    Wrap **native Python functions or classes** to be compatible with the framework
+    📦 Examples:
+    **In PyTorch**:
+    - `torch.nn.Module` is often subclassed or wrapped to make model definitions modular.
+    - Custom loss functions or layers can be written by wrapping existing components.
+    **In TensorFlow**:
+    - `tf.keras.layers.Wrapper` is a base class for things like `TimeDistributed` and `Bidirectional`, which **wrap 
+    other layers** to modify their behavior.
+    - You can also wrap functions with `@tf.function` to compile them into TensorFlow static graphs.
 
 Batch and minibatch?
 
