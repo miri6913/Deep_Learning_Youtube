@@ -461,6 +461,7 @@ What is wrapper in Tensorflow and Pytorch?
     **Abstract low-level APIs** into high-level user-friendly functions
     **Add additional features** (like monitoring, logging, or preprocessing)
     Wrap **native Python functions or classes** to be compatible with the framework
+
     📦 Examples:
     **In PyTorch**:
     - `torch.nn.Module` is often subclassed or wrapped to make model definitions modular.
@@ -471,6 +472,20 @@ What is wrapper in Tensorflow and Pytorch?
     - You can also wrap functions with `@tf.function` to compile them into TensorFlow static graphs.
 
 Batch and minibatch?
+    🧠 What is a Batch?
+    A batch is a group of training samples (examples) processed together before the model updates its weights.
+    Instead of updating weights after every single input (which would be slow and noisy), we collect multiple inputs, 
+    run them through the model together, compute the average loss, and then update the weights.
+    
+    🧠 What is a Mini-Batch?
+    In most real-world scenarios, when we say “batch,” we actually mean mini-batch.
+    A mini-batch is a small subset of the full dataset, used in one training iteration. It’s a balance between:
+    Stochastic Gradient Descent (SGD) – updates weights after every single sample (very noisy).
+    Batch Gradient Descent – updates weights after computing gradients on the entire dataset (very slow for large data).
+    Mini-batch Gradient Descent:
+    Processes a small number of samples per update (e.g., 16, 32, 64)
+
+Most common method in deep learning
 
 Static vs Dynamic Graphs
 ------------------------
