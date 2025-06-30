@@ -445,6 +445,15 @@ batching - to'plash
 fused operations - birlashtirilgan operatsiyalar
 
 AutoGrad in Pytorch
+    🔁 **AutoGrad in PyTorch**
+    **Autograd** is PyTorch’s **automatic differentiation engine**. It records operations on tensors in a 
+    **computational graph**, so it can automatically compute gradients for backpropagation.
+    How it works:
+    1. You perform operations on `torch.Tensor` objects with `requires_grad=True`.
+    2. PyTorch builds a **dynamic computational graph** on the fly.
+    3. When you call `.backward()` on a scalar loss tensor, PyTorch computes the gradients of all tensors that 
+    contributed to that value.
+    4. Gradients are stored in the `.grad` attribute.
 
 What is wrapper in Tensorflow and Pytorch?
 
