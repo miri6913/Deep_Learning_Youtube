@@ -516,14 +516,21 @@ Static vs Dynamic Graphs
 ### Lecture 9 | CNN Architectures
 
 inception - boshlanishi
-
 redundancy - ortiqchalik
-
 residual connections - qoldiq ulanishlar
-
 shallower model - sayoz model
 
 What is pooling layer in alexnet?
+    In AlexNet, max pooling is used after some convolutional layers to:
+    Downsample the feature maps (reduce spatial size)
+    Retain the most important features
+    Reduce computational cost and prevent overfitting
+    🔧 Details:
+        Pooling type: Max pooling
+        Pool size: 3×3
+        Stride: 2
+        Purpose: Make the network spatially invariant (detect features regardless of position)
+
 
 What is effective receptive field?
 
