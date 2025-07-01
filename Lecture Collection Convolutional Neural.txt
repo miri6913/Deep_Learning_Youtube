@@ -533,6 +533,11 @@ What is pooling layer in alexnet?
 
 
 What is effective receptive field?
+    The effective receptive field of a neuron in a CNN is the region in the input image that can influence the value of that neuron.
+    Larger receptive field → deeper understanding of global structure
+    Determined by: kernel size, stride, depth, and padding
+    🧠 Note: The theoretical receptive field can be large, but the effective one may be smaller due to weight patterns. 
+    Effective RF tends to be center-weighted (like a Gaussian) in deep networks.
 
 Inception module?
 
