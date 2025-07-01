@@ -540,6 +540,17 @@ What is effective receptive field?
     Effective RF tends to be center-weighted (like a Gaussian) in deep networks.
 
 Inception module?
+    Introduced in **GoogleNet (Inception v1)**, an **Inception module** is a block that applies **multiple convolutions of 
+    different sizes in parallel** and concatenates the results.
+    Structure:
+    1×1 conv
+    3×3 conv
+    5×5 conv
+    Max pooling
+    ➡️ The output from all branches is **concatenated** along the depth axis.
+    ✅ **Benefits**:
+        Captures features at multiple scales
+        Reduces computation by using 1×1 convolutions before 3×3 and 5×5
 
 1x1 bottleneck layers in GoogleNet?
 
