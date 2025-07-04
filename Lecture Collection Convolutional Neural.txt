@@ -570,6 +570,71 @@ recurrent
 glimpses
 
 explicit
+
+🔁 Recurrent Neural Networks (RNNs)
+RNNs are a class of neural networks designed for sequential data. Unlike feedforward networks, 
+RNNs have loops that allow information to persist across time steps.
+
+At each time step 
+𝑡
+t:
+
+ℎ
+𝑡
+=
+activation
+(
+𝑊
+ℎ
+ℎ
+ℎ
+𝑡
+−
+1
++
+𝑊
+𝑥
+ℎ
+𝑥
+𝑡
++
+𝑏
+)
+h 
+t
+​
+ =activation(W 
+hh
+​
+ h 
+t−1
+​
+ +W 
+xh
+​
+ x 
+t
+​
+ +b)
+𝑥
+𝑡
+x 
+t
+​
+ : input at time step 
+𝑡
+t
+
+ℎ
+𝑡
+h 
+t
+​
+ : hidden state (memory of past)
+
+Weights are shared across time steps
+
+
 ---------------------
 
 ### **Lecture 11 | Detection and Segmentation**
