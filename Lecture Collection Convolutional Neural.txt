@@ -634,6 +634,18 @@ t
 
 Weights are shared across time steps
 
+📚 Language Modeling
+In language modeling, the goal is to predict the next word in a sentence:
+
+Input: a sequence of words/tokens
+
+Output: the probability distribution of the next word
+
+RNNs (or LSTM/GRU) are ideal here because they can “remember” previous words in the sentence and use context to make better predictions.
+
+✅ Example:
+Input: "The dog is" → Predict: "barking"
+
 
 ---------------------
 
