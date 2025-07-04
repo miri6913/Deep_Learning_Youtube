@@ -641,11 +641,22 @@ Input: a sequence of words/tokens
 
 Output: the probability distribution of the next word
 
-RNNs (or LSTM/GRU) are ideal here because they can “remember” previous words in the sentence and use context to make better predictions.
+RNNs (or LSTM/GRU) are ideal here because they can “remember” previous words in the sentence and use 
+context to make better predictions.
 
 ✅ Example:
 Input: "The dog is" → Predict: "barking"
 
+🖼️ Image Captioning
+Image captioning is the task of generating a textual description of an image.
+
+Architecture typically:
+
+CNN encodes the image into a feature vector.
+
+RNN/LSTM/GRU decodes the feature vector into a sentence.
+
+🧠 Why RNN? Because generating a sentence is sequential — the model needs to "remember" what it already said to form grammatically and semantically correct text.
 
 ---------------------
 
