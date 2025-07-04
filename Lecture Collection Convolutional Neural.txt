@@ -656,7 +656,47 @@ CNN encodes the image into a feature vector.
 
 RNN/LSTM/GRU decodes the feature vector into a sentence.
 
-🧠 Why RNN? Because generating a sentence is sequential — the model needs to "remember" what it already said to form grammatically and semantically correct text.
+🧠 Why RNN? Because generating a sentence is sequential — the model needs to "remember" what it already said to 
+form grammatically and semantically correct text.
+
+🔦 Soft Attention
+Attention allows the model to focus on relevant parts of the input, rather than compressing everything into a single vector.
+
+Soft attention (a.k.a. Bahdanau attention) computes a weighted average of all input positions, where weights indicate relevance.
+
+Used in:
+
+Image captioning: model learns where to look in the image for each word.
+
+Translation: model attends to specific words in the source sentence when generating a word in the target sentence.
+
+context vector
+=
+∑
+𝑖
+𝛼
+𝑖
+⋅
+ℎ
+𝑖
+context vector= 
+i
+∑
+​
+ α 
+i
+​
+ ⋅h 
+i
+​
+ 
+Where 
+𝛼
+𝑖
+α 
+i
+​
+  are attention weights.
 
 ---------------------
 
